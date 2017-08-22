@@ -1,0 +1,20 @@
+{
+  "bills": [
+    {
+      "acc_no": "90238378262",
+      "bill_type": "Sample Water Bill",
+      "regex": "[From]\\s(\\d{1,2}/\\d{1,2}/\\d{4})\\s[t][o]\\s(\\d{1,2}/\\d{1,2}/\\d{4})",
+      "category": "Water",
+      "date_format": "DD/MM/YYYY",
+      "date_num": 1
+    },
+    {
+      "acc_no": "2934730262",
+      "bill_type": "Electricity Bill",
+      "regex": "(\\d{1,2}\\s{1}[A-Za-z]{3}\\s{1}\\d{2})[ ]{1}[t][o][ ]{1}(\\d{1,2}\\s{1}[A-Za-z]{3}\\s{1}\\d{2})",
+      "category": "Electricity",
+      "date_format": "DD MMM YY",
+      "date_num": 1
+    }
+  ]
+}
